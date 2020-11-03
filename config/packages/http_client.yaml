@@ -1,0 +1,5 @@
+framework:
+    http_client:
+        default_options:
+            retry_failed:
+                http_codes: [ 429 ]
